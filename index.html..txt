@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio - Joshep Emerson Condori Moreno</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+    header { background: #003366; color: white; padding: 20px; text-align: center; }
+    header img { max-height: 80px; margin-bottom: 10px; }
+    nav { background: #0055a5; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    h2 { color: #003366; }
+    .card { background: white; padding: 15px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { background: #003366; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo de UPLA -->
+    <img src="logo-upla.png" alt="Logo UPLA">
+    <h1>Universidad Peruana Los Andes - UPLA</h1>
+    <p>Bienvenido(a), soy <strong>Joshep Emerson Condori Moreno</strong><br>
+    Código: <strong>S03785C</strong><br>
+    Estudiante de Ingeniería de Sistemas y Computación</p>
+  </header>
+
+  <nav>
+    <a href="#unidad1">Unidad 1</a>
+    <a href="#unidad2">Unidad 2</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="unidad1">
+    <h2>Unidad 1</h2>
+    <div class="card">Semana 1: Apache Maven y Git/GitHub</div>
+    <div class="card">Semana 2: Métodos</div>
+    <div class="card">Semana 3: Programación Orientada a Objetos</div>
+    <div class="card">Semana 4: Programación Orientada a Objetos</div>
+  </section>
+
+  <section id="unidad2">
+    <h2>Unidad 2</h2>
+    <div class="card">Semana 5: Componentes de una Aplicación</div>
+    <div class="card">Semana 6: Componentes de una Aplicación</div>
+    <div class="card">Semana 7: Componentes de una Aplicación</div>
+    <div class="card">Semana 8: Componentes de una Aplicación</div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: tuemail@ejemplo.com</p>
+    <p>Ciudad: Huancayo, Perú</p>
+  </section>
+
+  <footer>
+    Universidad Peruana Los Andes – UPLA, Huancayo 2026
+  </footer>
+</body>
+</html>
